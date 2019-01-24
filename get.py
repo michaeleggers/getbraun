@@ -1,6 +1,18 @@
 # Get material from Braun's lectures.
-# Written by the KING OF PYTHON himself.
-
+# author: Michael Eggers, eggers@hm.edu
+# 
+# usage:
+# python get.py <lecturename>
+#  where lecturename is one of the following:
+#	- fun
+#	- algdatii
+#	- vss
+#	- (and more, but not tested)
+#
+# for more info see: https://ob.cs.hm.edu/api.html (some parts of the docu seem to be out of date, though.
+# eg. the object /api/lectures/algdati.json is not available. Instead the correct location
+# is https://ob.cs.hm.edu/api/lectures/algdati/base.json) .
+#
 # TODOs:
 # - check if json object is available
 # - make CLI for what to query
